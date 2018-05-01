@@ -4,7 +4,7 @@
 
 
 
-                        created by WHITETRA$H
+                        created by NORWEGIANBLACKMETAL
         ---------------------------------------------------------
                                             
 
@@ -33,7 +33,7 @@
 #>
 
 
-Param($dirPath="\\srv\ИТ", [switch] $r, [Switch] $f,  $outFilePath='.\audit_prav_dostupa.csv')
+Param($dirPath="\\SRV\DefaultPath", [switch] $r, [Switch] $f,  $outFilePath='.\audit_prav_dostupa.csv')
     # $dirPath - папка, для которой нужно посчитать права
     # $f - ключ вывода в файл
     # $r - ключ рекурсивного вывода прав вложенных папок
@@ -165,7 +165,7 @@ function Get-DirRights($dirPath="\\srv\ИТ", [switch] $r, [Switch] $f,  $outFil
 
 
 
-                                                            created by WHITETRA$H
+                                                            created by NORWEGIANBLACKMETAL
                                             ---------------------------------------------------------
                                             
 
